@@ -352,6 +352,33 @@ max-width: 20rem;
   justify-content:center;
   align-items:center;
 }
+/* best client */
+.project__title{
+  text-align: center;
+}
+.project__title h2{
+  font-size:5rem;
+  font-weight:700;
+  margin-bottom:2rem;
+}
+.project__title p{
+  font-size:2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.project__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top:8rem;
+}
+.project__card{
+  padding: 4rem;
+  border-radius:1rem;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
   /* REPEATABLE PATTERNS */
   :root{
     --green: #7d9a68;
