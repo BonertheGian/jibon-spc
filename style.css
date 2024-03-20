@@ -365,11 +365,17 @@ max-width: 20rem;
   font-size:2rem;
   font-weight: 300;
   margin-bottom: 2rem;
+ 
 }
 .project__wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top:8rem;
+}
+.project__wrapper p{
+  color:var(--light);
+  position:absolute;
+  transform: translateY(15rem);
 }
 .project__card{
   padding: 4rem;
@@ -379,6 +385,151 @@ max-width: 20rem;
   justify-content:center;
   align-items:center;
 }
+.project__card h4{
+  font-size: 2.5rem;
+  position:absolute;
+  color: var(--light);
+  transform: translateY(20rem);
+  text-align: center;
+}
+.project__card a{
+  position: absolute;
+  margin: 0 auto;
+  transform: translateY(30rem);
+}
+/* hire */
+.hire{
+  padding:15rem 0;
+}
+.hire_wrapper{
+  display:flex;
+  justify-content:center;
+}
+.hire_title{
+  padding-right:3rem;
+}
+.hire_title h2{
+  padding-bottom:2rem;
+  font-size:5rem;
+  font-weight:700;
+}
+.hire_title p{
+  color:gray;
+  width:42rem;
+}
+.hire_title span{
+  color:black;
+  font-weight:600;
+}
+.hire_right img{
+  align-items:center;
+  width:50rem;
+  height:62rem;
+  border:3px solid rgb(78, 78, 78);
+  border-radius:1rem;
+}
+.hire_info{
+  padding-top:5rem;
+}
+.hire_info ul li{
+padding-right:5rem;
+}
+.hire_info span{
+  display:flex;
+  border:2px solid lightgray;
+  border-radius:5px;
+  padding:2rem;
+  margin-bottom:2rem;
+}
+.hire_info li:nth-last-child(2) span{
+  align-items:center;
+  padding-bottom:7rem;
+}
+.hire_info ul li a{
+  transition:.3s ease;
+  display:flex;
+  justify-content:center;
+  width:20rem;
+  border-radius:1rem;
+  padding:2rem;
+  color:white;
+  background:rgb(56, 133, 56);
+}
+.hire_info ul li a:hover{
+  transition:.3s ease;
+  background:var(--dark);
+}
+/* footer */
+.footer {
+  padding: 3rem 0;
+  background-color: var(--dark);
+}
+
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-left: 60rem;
+  transform: translateY(-5rem);
+}
+.footer__social a{
+  color:var(--gray);
+}
+.footer__right p {
+  color: var(--gray);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* REPEATABLE PATTERNS */
   :root{
     --green: #7d9a68;
